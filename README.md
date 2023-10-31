@@ -23,4 +23,15 @@ mkdir my_project
 cd my_project
 git init
 ```
-Это лишь некоторые функции markdown. 
+Это лишь некоторые функции markdown.
+
+Также можно использовать формат описания в виде схемы `mermaid`:
+
+```mermaid
+  graph LR;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
